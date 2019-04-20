@@ -1,6 +1,9 @@
 ## Example with dvdrental database from postrgreSQL Tutorial: http://www.postgresqltutorial.com/
 ## The database must be downloaded from the website and loaded into the postgreSQL database server
 
+## Instal RpostgreSQL package:
+
+install.packages("RpostgreSQL")
 
 ## Open connection with database:
 con <- dbConnect(PostgreSQL(), user = "user", password = "password",
